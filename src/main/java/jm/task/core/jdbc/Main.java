@@ -8,7 +8,7 @@ public class Main extends Util {
     public static void main(String[] args) {
         UserService userService = new UserServiceImpl() ;
 
-//        userService.createUsersTable();
+        userService.createUsersTable();
 
 //        userService.saveUser("Grisha", "Udin", (byte)32);
 //        userService.saveUser("Fedor", "Aravadin", (byte)21);

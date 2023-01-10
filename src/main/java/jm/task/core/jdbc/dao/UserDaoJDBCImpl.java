@@ -44,6 +44,7 @@ public class UserDaoJDBCImpl implements UserDao  {
             prepState.setString(2, lastName);
             prepState.setByte(3, age);
             prepState.executeUpdate();
+            System.out.println("User - " + name + " : has been added!");
         } catch (SQLException e) {
             System.err.println("User not added");
             e.printStackTrace();
